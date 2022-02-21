@@ -1,0 +1,26 @@
+<form>
+        <b>Please Type your Name:</b><br><input type="text" id="name" autofocus><br><br>
+        <b>Please Type your Phone:</b><br><input type="text" id="phone"><br><br>
+
+        <b>what is the issue with this road?</b><br><input type="checkbox" id="pothole" name="RoadIssue"><label for="Potholes">Pothole</label><br>
+                                                    <input type="checkbox" id="sidewalk" name="RoadIssue" ><label for="Sidewalk">Sidewalk</label><br>
+                                                    <input type="checkbox" id="gravel_Road" name="RoadIssue"><label for="Gravel_Road"> Gravel Road</label><br>
+                                                    <input type="checkbox" id="shoulder_maintenance" name="RoadIssue"><label for="Shoulder_maintenances"> Shoulder maintenance</label><br>
+                                                    <input type="checkbox" id="vegetation" name="RoadIssue"><label for="Vegetation"> Vegetation</label><br>
+                                                    <input type="checkbox" id="snow_Ice" name="RoadIssue"><label for="Snow_Ice"> Snow Ice</label><br>
+                                                    <input type="checkbox" id="rainage_open" name="RoadIssue"><label for="Drainage_open"> Drainage open</label><br>
+                                                    <input type="checkbox" id="bridge_maintenance" name="RoadIssue"><label for="Bridge_maintenance"> Bridge maintenance</label><br>
+                                                    <input type="checkbox" id="dead_animal" name="RoadIssue"><label for="Dead_animal"> Dead animal</label><br>
+                                                    <input type="checkbox" id="others" name="RoadIssue"><label for="others"> Others</label><input type="text" id="otherstext"><br><br>
+        <b>Has the vehicle been stopped due to a lack of maintenance?:</b><br><select id="traffic_stop" name="TrafficStop"><option value="">--Please Select--</option><option value="Yes">Yes</option><option value="No">No</option><option value="Unknown">Unknown</option></select><br><br>
+
+        <b>Has the vehicle been slowed down due to a lack of maintenance?</b><br><select id="trafic_slowed_down" name="traficSlowed" ><option value="">--Please Select--</option><option value="Yes">Yes</option><option value="No">No</option><option value="Unknown">Unknown</option></select><br><br>
+        <b>Is this likely to cause an accident?</b><br><select id="Could_Cause_An_Accident" name="CouseAccident" ><option value="">--Please Select--</option><option value="Yes">Yes</option><option value="No">No</option><option value="Unknown">Unknown</option></select><br><br>
+        <b>Can you attach a picture?</b><br><input type="file" id="input_image" name="image" accept="image/png, image/jpeg"><br><br>
+        <b>Enter a date and time:</b><input id="datetime" type="datetime-local" name="datetime"><br><br>
+
+
+        <b>Comment:</b><br><textarea id="comment" name="comment" rows="3" cols="20"></textarea><br><br>
+        <input type="button" value="Submit" id="submit">
+        <input type="reset" value="Reset">
+        </form>
